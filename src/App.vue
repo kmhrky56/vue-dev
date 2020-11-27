@@ -15,6 +15,8 @@ export default {
 </script>
 
 <style>
+@import "./css/reset.css";
+@import "~milligram/dist/milligram.css";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -22,5 +24,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+#app > img{
+  margin: 0 auto;
 }
 </style>
